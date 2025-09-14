@@ -5,17 +5,23 @@
 
 import { Platform } from 'react-native';
 
-const tintColorLight = '#0a7ea4';
-const tintColorDark = '#fff';
+const tintColorLight = '#007AFF'; // Shopify blue
+const tintColorDark = '#007AFF';
 
 export const Colors = {
   light: {
-    text: '#11181C',
-    background: '#fff',
+    text: '#1D1D1F',
+    background: '#FFFFFF',
     tint: tintColorLight,
-    icon: '#687076',
-    tabIconDefault: '#687076',
+    icon: '#8E8E93',
+    tabIconDefault: '#8E8E93',
     tabIconSelected: tintColorLight,
+    cardBackground: '#FFFFFF',
+    sectionBackground: '#F8F9FA',
+    border: '#E5E5EA',
+    success: '#34C759',
+    warning: '#FF9500',
+    error: '#FF3B30',
   },
   dark: {
     text: '#ECEDEE',
@@ -24,6 +30,12 @@ export const Colors = {
     icon: '#9BA1A6',
     tabIconDefault: '#9BA1A6',
     tabIconSelected: tintColorDark,
+    cardBackground: '#1C1C1E',
+    sectionBackground: '#000000',
+    border: '#38383A',
+    success: '#34C759',
+    warning: '#FF9500',
+    error: '#FF3B30',
   },
 };
 
